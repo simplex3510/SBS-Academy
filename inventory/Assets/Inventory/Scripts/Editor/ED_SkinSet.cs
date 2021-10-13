@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditro(sizeof(SkinSet))]
-public class ED_SkinSet : Editor
+[CustomEditor(typeof(SkinSet))]
+public class ed_SkinSet : Editor
 {
-
-
-
-    // Start is called before the first frame update
-    void Start()
+    SkinSet m_SkinSet;
+    public override void OnInspectorGUI()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DrawDefaultInspector();
+        m_SkinSet = target as SkinSet;
+        GUILayout.Label("< OP >");
+        if (GUILayout.Button("Set skin 0"))
+        {
+            m_SkinSet.Set_skin(0);
+        }
+        if (GUILayout.Button("Set skin 1"))
+        {
+            m_SkinSet.Set_skin(1);
+        }
     }
 }

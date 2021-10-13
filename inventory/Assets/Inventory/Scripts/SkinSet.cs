@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 
 public class SkinSet : MonoBehaviour
 {
@@ -11,22 +10,19 @@ public class SkinSet : MonoBehaviour
     public SkinnedMeshRenderer m_boneSource;
     public SkinnedMeshRenderer m_defaultSkin;
 
-    SkinSet m_SkinSet;
 
     public void Set_skin(int ix)
     {
         GameObject obj = m_lstObjectReference[ix];
         if (obj == null)
-        {
             return;
-        }
         if (m_currentObj != null)
-        {
             m_currentObj.SetActive(false);
-        }
 
-        SkinnedMeshRenderer[] targets = m_currentObj.GetComponentInChildren<SkinnedMeshRenderer>();
+        m_currentObj = obj;
 
+        SkinnedMeshRenderer[] targets = 
+            m_currentObj.GetComponentsInChildren<SkinnedMeshRenderer>();
         foreach (SkinnedMeshRenderer target in targets)
         {
             if (target != null)
@@ -35,24 +31,15 @@ public class SkinSet : MonoBehaviour
                 target.rootBone = m_boneSource.rootBone;
             }
         }
-
         if (m_defaultSkin != null)
         {
             m_defaultSkin.gameObject.SetActive(false);
         }
-        
-        if (m)
+        if (m_animator != null)
+        {
+            m_animator.Rebind();
+        }
+        m_currentObj.SetActive(true);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
