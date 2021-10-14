@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(SkinSet))]
-public class IconMgr : Editor
+[CustomEditor(typeof(IconMgr))]
+public class ed_IconMgr : Editor
 {
     IconMgr m_IconMgr;
     public override void OnInspectorGUI()
@@ -14,7 +14,7 @@ public class IconMgr : Editor
         GUILayout.Label("< OP >");
         if (GUILayout.Button("Set Icon"))
         {
-            m_IconMgr.Set_skin(0);
+            // m_IconMgr.Set_skin(0);
         }
     }
 }

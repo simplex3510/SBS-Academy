@@ -4,13 +4,5 @@ using UnityEngine;
 
 public class IconMgr : MonoBehaviour
 {
-    private static UIMgr _instance = null;
-
-    public static UIMgr instance
-    {
-        get
-        {
-
-        }
-    }
+   
 }
