@@ -11,7 +11,7 @@ public class UIMgr : MonoBehaviour
         {
             if (!_instance)
             {
-                _instance = GameObject.FindObjectsOfType(typeof(UIMgr)) as UIMgr;
+                _instance = GameObject.FindObjectOfType(typeof(UIMgr)) as UIMgr;
                 if (!_instance)
                 {
                     Debug.LogError("_instance null");
@@ -36,5 +36,6 @@ public class UIMgr : MonoBehaviour
     }
 
     public Canvas m_canvas;
-    public Panel_itemBook m_panel_ItemBook;
+    
+    public Panel_ItemBook m_panel_ItemBook;
 }

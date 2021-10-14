@@ -12,9 +12,9 @@ public class ed_IconMgr : Editor
         DrawDefaultInspector();
         m_IconMgr = target as IconMgr;
         GUILayout.Label("< OP >");
-        if (GUILayout.Button("Set Icon"))
+        if (GUILayout.Button("Setup Icon"))
         {
-            // m_IconMgr.Set_skin(0);
+            m_IconMgr.Setup_DicSprite();
         }
     }
 }

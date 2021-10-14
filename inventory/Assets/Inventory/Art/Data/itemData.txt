@@ -1,0 +1,20 @@
+{
+"m_dataList":[
+ {
+   "m_itemID": "practice-sword",
+   "m_iconName": "practice-sword",
+   "m_itemName": "연습용 검",
+   "m_desc": "연습용 검",
+   "m_actionType": 1
+ },
+ {
+   "m_itemID": "practice-sword",
+   "m_iconName": "practice-sword",
+   "m_itemName": "연습용 검",
+   "m_desc": "연습용 검",
+   "m_actionType": 0
+ }
+]
+}
+
+
