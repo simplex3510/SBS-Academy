@@ -26,7 +26,7 @@ public class ItemMgr : MonoBehaviour
 
     private void Awake()
     {
-        if (_instance != null)
+        if (_instance != null && _instance != this)
         {
             Debug.LogError("ItemMgr duplicated");
             GameObject.Destroy(this.gameObject);
@@ -80,5 +80,17 @@ public class ItemMgr : MonoBehaviour
             }
         }
         return null;
+    }
+
+    public ItemInfoRec Get_Data(string id)
+    {
+        foreach(var item in m_infoTable.m_dataList)
+        {
+            if(item.m_itemID == id)
+            {
+                return item;
+            }
+        }
+        return new ItemInfoRec();
     }
 }
