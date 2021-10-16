@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameMgr : MonoBehaviour
 {
     private static GameMgr _instance = null;
-    public static GameMgr instacne
+    public static GameMgr instance
     {
         get
         {
@@ -27,6 +27,19 @@ public class GameMgr : MonoBehaviour
         if(_instance != null && _instance != true)
         {
             Debug.LogError("GameMgr duplicated");
+            GameObject.Destroy(this.gameObject);
         }
+        else
+        {
+            _instance = this;
+        }
+    }
+
+    [SerializeField]
+    private Player m_player;
+
+    public Player Get_player()
+    {
+        return m_player;
     }
 }

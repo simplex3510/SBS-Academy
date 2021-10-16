@@ -12,12 +12,12 @@ public struct ItemID_Count
 [System.Serializable]
 public class InvenDataList
 {
-    public List<ItemID_Count> m_dataList;
+    public List<ItemID_Count> m_dataList = new List<ItemID_Count>();
 }
 
 public class InvenData : MonoBehaviour
 {
-    public InvenDataList m_invenDataList;
+    public InvenDataList m_invenDataList = new InvenDataList();
 
     public void SaveData()
     {

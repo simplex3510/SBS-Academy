@@ -17,9 +17,9 @@ public class Button_item : MonoBehaviour
     {
         if (m_info.m_itemID.Trim() == "")
         {
-            m_iconSprite.sprite = IconMgr.instance.Get_sprtie("none_0");
+            m_iconSprite.sprite = IconMgr.instance.Get_sprtie("none");
             return;
         }
-        m_iconSprite.sprite = IconMgr.instance.Get_sprtie(m_info.m_itemName);
+        m_iconSprite.sprite = IconMgr.instance.Get_sprtie(m_info.m_iconName);
     }
 }

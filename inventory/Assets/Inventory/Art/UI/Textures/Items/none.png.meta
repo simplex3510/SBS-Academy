@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2e4f1b897abf4e043ae1ba8ff146b5ec
+guid: dde559d3f433bb04abccc925fb976f21
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: -4298056599330406823
-    second: none_0
+    second: none
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,15 +118,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: none_0
+      name: none
       rect:
         serializedVersion: 2
-        x: 4
-        y: 4
-        width: 120
-        height: 120
+        x: 14
+        y: 14
+        width: 100
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

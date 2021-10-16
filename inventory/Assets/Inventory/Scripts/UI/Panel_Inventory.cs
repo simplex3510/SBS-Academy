@@ -17,11 +17,11 @@ public class Panel_Inventory : MonoBehaviour
     {
         InvenData data = GameMgr.instance.Get_player().m_invenData;
 
-        for (int ix = 0; ix < data.m_invenDataList.m_dataList[ix].Count; ix++)
+        for (int ix = 0; ix < data.m_invenDataList.m_dataList.Count; ix++)
         {
             string id = data.m_invenDataList.m_dataList[ix].m_itemID;
             Debug.Log(id);
-            ItemInfoRec rec = ItemMgr.instance.GetData(id);
+            ItemInfoRec rec = ItemMgr.instance.Get_Data(id);
 
             if(string.IsNullOrEmpty(rec.m_itemID))
             {
