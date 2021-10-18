@@ -2,12 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public struct ItemID_Count
-{
-    public string m_itemID;
-    public int m_count;
-}
+
 
 [System.Serializable]
 public class InvenDataList

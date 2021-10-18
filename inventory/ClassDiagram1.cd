@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameMgr">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\GameMgr.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Player">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_invenData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Button_item">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAEABAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\UI\Button_item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_info" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Button_inven" Collapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\UI\Button_inven.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconMgr">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="IconMgr.SerializeDicStringSprite" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Inventory\Scripts\IconMgr.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEEABAAAAAAAAAAAAAAAAIAABAAAEAACAAAAAAAEA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\IconMgr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemInfo">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\Data\ItemInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemInfoTable" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\Data\ItemInfoRec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemMgr">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAQAAMAAAAAAAAAAAAAQBAAAAAAAAAAEAIAEQ=</HashCode>
+      <FileName>Assets\Inventory\Scripts\ItemMgr.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_infoTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InvenData">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAQAgAQAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\Data\InvenData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_invenDataList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InvenDataList">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\Data\InvenData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_dataList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ItemInfoRec" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIEAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAgA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\Data\ItemInfoRec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ItemID_Count" Collapsed="true">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Inventory\Scripts\Data\InvenData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

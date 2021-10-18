@@ -21,6 +21,7 @@ public class Panel_Inventory : MonoBehaviour
         {
             string id = data.m_invenDataList.m_dataList[ix].m_itemID;
             Debug.Log(id);
+            
             ItemInfoRec rec = ItemMgr.instance.Get_Data(id);
 
             if(string.IsNullOrEmpty(rec.m_itemID))
