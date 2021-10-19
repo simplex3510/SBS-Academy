@@ -2,14 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
-[System.Serializable]
-public class InvenDataList
-{
-    public List<ItemID_Count> m_dataList = new List<ItemID_Count>();
-}
-
 public class InvenData : MonoBehaviour
 {
     public InvenDataList m_invenDataList = new InvenDataList();

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public struct ItemID_Count
+public struct InvenDataRec
 {
     public int m_invenIndex;
     public string m_itemID;
@@ -62,7 +62,7 @@ public class InvenDataList
         {
             return false;
         }
-        if(_equipSlotInfo.m_sloID == E_equipSlotID.lockMounting)
+        if(_equipSlotInfo.m_slotID == E_equipSlotID.lockMounting)
         {
             return false;
         }

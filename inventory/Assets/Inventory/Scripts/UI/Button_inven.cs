@@ -20,7 +20,7 @@ public class Button_inven : Button_item
     public override void Set_sprite()
     {
         base.Set_sprite();
-        Debug.Log("invenDataRec -- set ÇÊ¿ä");
+        Debug.Log("invenDataRec -- set ï¿½Ê¿ï¿½");
     }
 
     public void Set_invenDataRec(InvenDataRec _rec)

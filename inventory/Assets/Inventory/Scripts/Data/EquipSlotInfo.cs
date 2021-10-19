@@ -24,7 +24,7 @@ public enum E_equipSlotID
 public class EquipSlotInfo : MonoBehaviour
 {
     public E_equipSlotID m_slotID;
-    //
+    
     public Button_inven m_button_inven;
 
     E_equipSlotID m_startSlotID;
@@ -41,7 +41,7 @@ public class EquipSlotInfo : MonoBehaviour
 
     public void set_Equipment(InvenDataRec _rec)
     {
-        _rec.m_equipSlotID = m_slotID;
+        _rec.m_EquipSlotID = m_slotID;
         m_button_inven.m_invenDataRec = _rec;
         //m_button_inven
     }

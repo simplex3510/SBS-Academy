@@ -15,7 +15,7 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         if(m_itemBeingDragged == null || m_itemBeingDragged.m_invenDataRec == null
             || string.IsNullOrEmpty(m_itemBeingDragged.m_invenDataRec.m_itemID))
         {
-            Debug.Log("m_itemBeingDragged == null, m_invenDataRec null µ¥ÀÌÅÍÀÎ °æ¿ì(ºóÄ­)");
+            Debug.Log("m_itemBeingDragged == null, m_invenDataRec null ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(ï¿½ï¿½Ä­)");
             m_itemBeingDragged = null;
             return;
         }
@@ -24,7 +24,7 @@ public class ItemDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         transform.SetParent(UIMgr.instance.m_canvas.transform);
         _startParent.localScale = Vector3.one;
 
-        GetComponent<Image>().raycastTarget = false;    // UI ÀÌº¥Æ® Ã³¸® °¨Áö ¹«½Ã
+        GetComponent<Image>().raycastTarget = false;    // UI ï¿½Ìºï¿½Æ® Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     }
 
     public void OnDrag(PointerEventData eventData)
