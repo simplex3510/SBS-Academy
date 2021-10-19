@@ -1,0 +1,35 @@
+{"m_dataList":
+  [
+    
+   {
+      "m_itemID": "natalie-skin",
+      "m_iconName": "natalie-skin",
+      "m_itemName": "여자 1",
+      "m_desc": "여자 1...."
+    },
+    {
+      "m_itemID": "nathan-skin",
+      "m_iconName": "nathan-skin",
+      "m_itemName": "남자 1",
+      "m_desc": "남자 1...."
+    },
+    {
+      "m_itemID": "practice-sword",
+      "m_iconName": "practice-sword",
+      "m_itemName": "연습용 검",
+      "m_desc": "연습용 검...."
+    },
+    {
+      "m_itemID": "wand",
+      "m_iconName": "wand",
+      "m_itemName": "연습용 지팡이",
+      "m_desc": "연습용 지팡이는 공격력이 약합니다."
+    },
+    {
+      "m_itemID": "sword",
+      "m_iconName": "sword",
+      "m_itemName": "sword.",
+      "m_desc": "sword...."
+    }
+  ]
+}

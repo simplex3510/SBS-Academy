@@ -1,113 +1,194 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Item Book">
+    <Position X="13.49" Y="0.687" Height="0.417" Width="1.179" />
+  </Comment>
+  <Comment CommentText="Player Inventory">
+    <Position X="13.375" Y="5.135" Height="0.417" Width="1.46" />
+  </Comment>
+  <Class Name="Button_inven">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAhAAAAAEAAAgAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Button_inven.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Class Name="GameMgr">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAEACAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAEA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\GameMgr.cs</FileName>
+      <FileName>Assets\Scripts\GameMgr.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="m_player" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Player">
-    <Position X="0.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\Player.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="m_invenData" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="Button_item">
-    <Position X="11" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAABAEABAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\UI\Button_item.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="m_info" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="Button_inven" Collapsed="true">
-    <Position X="11" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\UI\Button_inven.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="IconMgr">
-    <Position X="4" Y="0.5" Width="1.5" />
-    <NestedTypes>
-      <Class Name="IconMgr.SerializeDicStringSprite" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Assets\Inventory\Scripts\IconMgr.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Class>
-    </NestedTypes>
-    <TypeIdentifier>
-      <HashCode>AAAEEABAAAAAAAAAAAAAAAAIAABAAAEAACAAAAAAAEA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\IconMgr.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ItemInfo">
-    <Position X="5.75" Y="4.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\Data\ItemInfo.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ItemInfoTable" Collapsed="true">
-    <Position X="8.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\Data\ItemInfoRec.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ItemMgr">
-    <Position X="5.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAIEAAAAQAAMAAAAAAAAAAAAAQBAAAAAAAAAAEAIAEQ=</HashCode>
-      <FileName>Assets\Inventory\Scripts\ItemMgr.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="m_infoTable" />
-    </ShowAsAssociation>
-  </Class>
   <Class Name="InvenData">
-    <Position X="0.5" Y="5" Width="1.5" />
+    <Position X="3.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAQAgAQAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\Data\InvenData.cs</FileName>
+      <HashCode>AAIEAAAAAAAQAgBQAAAAAAAUAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\InvenData.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="m_invenDataList" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="InvenDataList">
-    <Position X="3.5" Y="5" Width="1.5" />
+  <Class Name="Player">
+    <Position X="0.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\Data\InvenData.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_invenData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InvenDataList">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="InvenDataList.E_mountingType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Data\InvenData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAABAAAEAAAAAAAIAAAAEAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Data\InvenDataList.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>
       <Field Name="m_dataList" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="ItemInfoRec" Collapsed="true">
-    <Position X="14.5" Y="0.5" Width="1.5" />
+  <Class Name="IconMgr" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>EAAIEAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAgA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\Data\ItemInfoRec.cs</FileName>
+      <HashCode>AAAMEAAAAAAAEAAAAAAAAAAAAABAAAEAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Data\IconMgr.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Struct Name="ItemID_Count" Collapsed="true">
-    <Position X="3.5" Y="6.25" Width="1.5" />
+  <Class Name="ItemInfo">
+    <Position X="5.25" Y="1.25" Width="1.5" />
+    <AssociationLine Name="m_data" Type="ItemInfoRec">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.328" Y="0.092" Height="0.182" Width="0.847" />
+      </MemberNameLabel>
+    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
-      <FileName>Assets\Inventory\Scripts\Data\InvenData.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\ItemInfo.cs</FileName>
     </TypeIdentifier>
-  </Struct>
+    <ShowAsAssociation>
+      <Field Name="m_data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Button_item">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAgAAAAAAABAEABAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Button_item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_info" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Panel_Inventory" Collapsed="true">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAwAAAAEQAAAAIAAAIAAAAAAAAAgACIAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Panel_Inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_lstBtn_item" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Panel_itemBook" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAAIAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\Panel_itemBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemMgr" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAQAAMAAAAAAAAAAAAAQBAAAAAAAAAAEAIAEQ=</HashCode>
+      <FileName>Assets\Scripts\Data\ItemMgr.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_InfoTable" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ItemInfoTable">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="m_dataList" Type="ItemInfoRec">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.192" Y="0.195" Height="0.182" Width="0.933" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Scripts\Data\ItemInfoRec.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_dataList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ItemInfoRec">
+    <Position X="8.25" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAIEAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAgA=</HashCode>
+      <FileName>Assets\Scripts\Data\ItemInfoRec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquipSlotInfo" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAAAAAAAAAAAgABAAAAABAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\EquipSlotInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_slotID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="InvenDataRec">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\InvenDataList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="E_equipSlotID" Collapsed="true">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABIAIAkIAAAAAAAKAABAAAAAAAAAAAAAAAAKAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Data\EquipSlotInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="맑은 고딕" Size="9" />
 </ClassDiagram>
