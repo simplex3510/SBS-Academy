@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class AnimatorMoveEvent : UnityEvent<Vector3, Quaternion> { }
 
 public class botController : MonoBehaviour
 {
+    public UnityEvent OnWeaponSwitch = new UnityEvent();
     public AnimatorMoveEvent OnMove = new AnimatorMoveEvent();
     public Animator m_animator;
     private void Awake()
@@ -23,5 +28,11 @@ public class botController : MonoBehaviour
     public void ev_hit()
     {
         Debug.Log("   Hit !!!!");
+    }
+
+    public void ev_WeaponSwitch()
+    {
+        Debug.Log("   ev_WeaponSwitch !!!!");
+        OnWeaponSwitch.Invoke();
     }
 }

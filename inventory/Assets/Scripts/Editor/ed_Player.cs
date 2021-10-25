@@ -17,6 +17,18 @@ class ed_Player : Editor
         {
             m_Player.Click_equip2HandSword();
         }
+        if (GUILayout.Button("Equip Unarmed"))
+        {
+            m_Player.Click_equipUnarmed();
+        }
+        if (GUILayout.Button("Equip sword L"))
+        {
+            m_Player.Click_equipSword_L();
+        }
+        if (GUILayout.Button("Equip sword R"))
+        {
+            m_Player.Click_equipSword_R();
+        }
     }
 
 }
