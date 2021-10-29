@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
         m_animator.SetTrigger("equip");
         m_animator.SetInteger("weapon", 0); // enum 설정 필요.
     }
+
     public void Click_2HandSword()
     {
         if (m_objCurrent)
@@ -32,6 +33,27 @@ public class Player : MonoBehaviour
         m_animator.SetInteger("weapon", 1); // enum 설정 필요.
     }
 
+    public void Click_Run()
+    {
+        if (m_objCurrent)
+        {
+            m_objCurrent.SetActive(false);
+        }
+
+        m_animator.SetTrigger("run");
+        m_animator.SetInteger("weapon", 0); // enum 설정 필요.
+    }
+
+    public void Click_UnEquip()
+    {
+        if (m_objCurrent)
+        {
+            m_objCurrent.SetActive(false);
+        }
+
+        m_animator.SetTrigger("unarmed");
+        m_animator.SetInteger("weapon", 0); // enum 설정 필요.
+    }
 
     public void WeaponSwitch()
     {
