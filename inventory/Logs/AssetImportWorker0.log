@@ -15,11 +15,11 @@ C:/Users/User/Desktop/SBS-Academy/inventory
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65078
+49458
 Successfully changed project path to: C:/Users/User/Desktop/SBS-Academy/inventory
 C:/Users/User/Desktop/SBS-Academy/inventory
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000697 seconds.
+Registered in 0.000690 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
+- Completed reload, in  0.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (717ms)
+	ReloadAssembly (684ms)
 		BeginReloadAssembly (36ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (311ms)
+		EndReloadAssembly (309ms)
 			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (112ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (126ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (125ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (32ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001132 seconds.
+Registered in 0.001138 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
+- Completed reload, in  0.727 seconds
 Domain Reload Profiling:
-	ReloadAssembly (779ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (630ms)
+		EndReloadAssembly (580ms)
 			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (200ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (210ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (161ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (155ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 70.0 MB.
 System memory in use after: 70.1 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1971.
-Total: 2.613600 ms (FindLiveObjects: 0.169600 ms CreateObjectMapping: 0.042100 ms MarkObjects: 2.309200 ms  DeleteObjects: 0.092100 ms)
+Total: 2.622500 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.043800 ms MarkObjects: 2.363700 ms  DeleteObjects: 0.051200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,16 +131,345 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ExplosiveLLC
-  artifactKey: Guid(ec03e457a9b3f314abe61407793075b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExplosiveLLC using Guid(ec03e457a9b3f314abe61407793075b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c5ddb9cfaf08495fd8327b24988548') in 0.002743 seconds 
-  Import took 0.004453 seconds .
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Backward-Left.FBX
+  artifactKey: Guid(37d8b3bb02b73f94fbb478947a897350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Backward-Left.FBX using Guid(37d8b3bb02b73f94fbb478947a897350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c7a4a869cbd430842e8d674b97f4cf') in 0.073763 seconds 
+  Import took 0.075949 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.653115 seconds.
-  path: Assets/Inventory/UI/Textures/UI/weapon.png
-  artifactKey: Guid(21c00a17bd720dd4c8ff4d1a62ce3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Inventory/UI/Textures/UI/weapon.png using Guid(21c00a17bd720dd4c8ff4d1a62ce3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421d60dd7450ab3161e33425927240a1') in 0.106251 seconds 
-  Import took 0.108538 seconds .
+  Time since last request: 0.000138 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Left.FBX
+  artifactKey: Guid(f23202f40af3df34db6fb7c442c84f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Left.FBX using Guid(f23202f40af3df34db6fb7c442c84f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2838fe28097cdaba013474d3e1e6a9') in 0.006214 seconds 
+  Import took 0.008201 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward.FBX
+  artifactKey: Guid(d46b87b03e415ce4e9e0180f34751f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward.FBX using Guid(d46b87b03e415ce4e9e0180f34751f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4ca6a8abe2f66157c0aaf777916e60') in 0.004971 seconds 
+  Import took 0.007059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward.FBX
+  artifactKey: Guid(f8e0a3512fe05e240bf9d4cff6d8fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward.FBX using Guid(f8e0a3512fe05e240bf9d4cff6d8fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f63de9c87fc16feb48d85b3adf2fab') in 0.004607 seconds 
+  Import took 0.006625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward-Left.FBX
+  artifactKey: Guid(7c47593c47a6c3d46b0cdfebf9165e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward-Left.FBX using Guid(7c47593c47a6c3d46b0cdfebf9165e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0686317f408499271fd69db290bd6b2b') in 0.004964 seconds 
+  Import took 0.007040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward-Left.FBX
+  artifactKey: Guid(de4d64c188110df4ca4ecfb4f3e52dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward-Left.FBX using Guid(de4d64c188110df4ca4ecfb4f3e52dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ef7612e530bfa931737923d66cd52e') in 0.004289 seconds 
+  Import took 0.006340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward.FBX
+  artifactKey: Guid(81ab5976dd7b302458e91569714fd735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward.FBX using Guid(81ab5976dd7b302458e91569714fd735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8cdc3b2669f4895d0bbc0ab045afde') in 0.004306 seconds 
+  Import took 0.006339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Right.FBX
+  artifactKey: Guid(d07386db9932b2343a9cf98951edcf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Right.FBX using Guid(d07386db9932b2343a9cf98951edcf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca6ea0ea22b23a38dc5a71245901fb5') in 0.004915 seconds 
+  Import took 0.007051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward-Right.FBX
+  artifactKey: Guid(f2577bb9ac1e07d45be926b553d214cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Foward-Right.FBX using Guid(f2577bb9ac1e07d45be926b553d214cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8163cb205d6f08280a739b8ee30c2c') in 0.004689 seconds 
+  Import took 0.006749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Right.FBX
+  artifactKey: Guid(cd2767ba0831c7b43a33ef739504bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Right.FBX using Guid(cd2767ba0831c7b43a33ef739504bbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6eab4d85536dfbb2768724928cd835') in 0.004360 seconds 
+  Import took 0.006460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward-Attack1.FBX
+  artifactKey: Guid(1e84c1d896b377848a74d32f54a20344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward-Attack1.FBX using Guid(1e84c1d896b377848a74d32f54a20344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d36f699cbca3962a38974586f47e9f') in 0.004374 seconds 
+  Import took 0.006483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward-Left.FBX
+  artifactKey: Guid(3a28f057f009e0841a2c7332e40e8279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward-Left.FBX using Guid(3a28f057f009e0841a2c7332e40e8279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c1c050f2cadf90f2cf5a5311a272aa') in 0.004626 seconds 
+  Import took 0.006713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Backward-Right.FBX
+  artifactKey: Guid(9d03f9ad144637142acd392b37fab55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Backward-Right.FBX using Guid(9d03f9ad144637142acd392b37fab55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ce848d7d766e9c32e067b14f9bb084') in 0.004267 seconds 
+  Import took 0.006345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward-Right.FBX
+  artifactKey: Guid(74d45ea7973993d4eaeecad87df62a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Bow/RPG-Character@2Hand-Bow-Run-Backward-Right.FBX using Guid(74d45ea7973993d4eaeecad87df62a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3ac751b090d46dfb23f3ac16b5b65c') in 0.006218 seconds 
+  Import took 0.008374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Backward.FBX
+  artifactKey: Guid(f6e7e36c0ffc216429f08dcccc56fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Backward.FBX using Guid(f6e7e36c0ffc216429f08dcccc56fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e5d3280f9c639b5971fcba4fe1df14') in 0.005425 seconds 
+  Import took 0.007698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward-Right.FBX
+  artifactKey: Guid(f2615c1ba8ebfbe408085e704e1fb6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Forward-Right.FBX using Guid(f2615c1ba8ebfbe408085e704e1fb6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f110a645a7d3d81f4107edf591f8c522') in 0.004333 seconds 
+  Import took 0.006326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Left.FBX
+  artifactKey: Guid(1f67be3126f138442a57d1f5cd17a30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Axe/RPG-Character@2Hand-Axe-Run-Left.FBX using Guid(1f67be3126f138442a57d1f5cd17a30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00559a805ccce9754d4c819f2a7eeb6') in 0.005004 seconds 
+  Import took 0.006999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934735 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Backward.FBX
+  artifactKey: Guid(58ba3d13ecd44a542b2d598653b14978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Backward.FBX using Guid(58ba3d13ecd44a542b2d598653b14978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8618040a458e685dca8986fcac81ef4') in 0.006544 seconds 
+  Import took 0.009778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Backward-Left.FBX
+  artifactKey: Guid(cbe8ef68c675e8547a72b33262caff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Backward-Left.FBX using Guid(cbe8ef68c675e8547a72b33262caff9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce96bc4dc82d59f05b91dde31b27f89') in 0.004325 seconds 
+  Import took 0.006198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066236 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Backward-Right.FBX
+  artifactKey: Guid(190ef97012212714cb96ec77e80e0a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Backward-Right.FBX using Guid(190ef97012212714cb96ec77e80e0a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c97befad168f313a30b1e19538ee45') in 0.005262 seconds 
+  Import took 0.007589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Forward.FBX
+  artifactKey: Guid(6299bb0ce520bc844b769f08f374d825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Forward.FBX using Guid(6299bb0ce520bc844b769f08f374d825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1748dfaa11911e6048dbd4874d16d30') in 0.005357 seconds 
+  Import took 0.007709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041976 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Forward-Left.FBX
+  artifactKey: Guid(5e079b05090602f43ab059401bc51671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Forward-Left.FBX using Guid(5e079b05090602f43ab059401bc51671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5182a010a927ad326a9a1c99b368fba0') in 0.004757 seconds 
+  Import took 0.006974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Forward-Right.FBX
+  artifactKey: Guid(af872ccded9725b469a908801f3a8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Forward-Right.FBX using Guid(af872ccded9725b469a908801f3a8903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d499bf868bdf0c8f03169a39c74457') in 0.004622 seconds 
+  Import took 0.006743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609365 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Left.FBX
+  artifactKey: Guid(476cf22f45a833945b296333434433bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Left.FBX using Guid(476cf22f45a833945b296333434433bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e04e855a6296143bdd133c4738bab2') in 0.005122 seconds 
+  Import took 0.007376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Backward-Right.FBX
+  artifactKey: Guid(444b2b6938a57034b94bebec8e722da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Backward-Right.FBX using Guid(444b2b6938a57034b94bebec8e722da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89678063854a58c1dd8e3b877af6f5f5') in 0.004362 seconds 
+  Import took 0.006361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Backward-Left.FBX
+  artifactKey: Guid(0a9885505c837de4bb25585df9eb9448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Backward-Left.FBX using Guid(0a9885505c837de4bb25585df9eb9448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f028a313a30a7004994d42ffa9e7145') in 0.004618 seconds 
+  Import took 0.006668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Right.FBX
+  artifactKey: Guid(906c8a97ec3296e47aabbcf2160704a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Crossbow/RPG-Character@2Hand-Crossbow-Run-Right.FBX using Guid(906c8a97ec3296e47aabbcf2160704a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af22f9ecd7f8c91562dfa94ac75dcbf') in 0.004777 seconds 
+  Import took 0.006887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Backward.FBX
+  artifactKey: Guid(3dd11002fd6782846a30af9711278127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Backward.FBX using Guid(3dd11002fd6782846a30af9711278127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8559c09860fe976ddef1622a0eeee1c6') in 0.004908 seconds 
+  Import took 0.007032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040763 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward.FBX
+  artifactKey: Guid(a0f6e09848b999340a56c85c661fcc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward.FBX using Guid(a0f6e09848b999340a56c85c661fcc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf056c44d432ca55b33666e27d8c6d1f') in 0.004814 seconds 
+  Import took 0.007871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward-Left.FBX
+  artifactKey: Guid(a8785aa7962c5d4418ecafa205856518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward-Left.FBX using Guid(a8785aa7962c5d4418ecafa205856518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc57b45c51c889a83867680ef200e4e') in 0.004520 seconds 
+  Import took 0.006629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward-Attack1.FBX
+  artifactKey: Guid(89db87f2b290b584085b8fd6afdea26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward-Attack1.FBX using Guid(89db87f2b290b584085b8fd6afdea26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606c45ad927a0977811949043f1108f9') in 0.004592 seconds 
+  Import took 0.006758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120513 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward-Right.FBX
+  artifactKey: Guid(f15f90af29b78d44988a8e2062666cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Forward-Right.FBX using Guid(f15f90af29b78d44988a8e2062666cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cb4c9a1f28c73582115f5c34342ed3') in 0.004978 seconds 
+  Import took 0.008893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Backward-Right.FBX
+  artifactKey: Guid(d65ec2c9f53fdc64b96afdffc672db1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Backward-Right.FBX using Guid(d65ec2c9f53fdc64b96afdffc672db1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15239f911f953ac72bcc0178cfef177') in 0.004554 seconds 
+  Import took 0.006820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward-Attack1.FBX
+  artifactKey: Guid(322adb187b75a0848857a892aacf048c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward-Attack1.FBX using Guid(322adb187b75a0848857a892aacf048c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e440a8caf2da38124570185e58ded83') in 0.004827 seconds 
+  Import took 0.006927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Left.FBX
+  artifactKey: Guid(7168705627d77b84a9ea5dea9de6bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Left.FBX using Guid(7168705627d77b84a9ea5dea9de6bf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a01283451cb5cbc0c61c004d7f15dd') in 0.004785 seconds 
+  Import took 0.006901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward.FBX
+  artifactKey: Guid(00cb498003d76d1419bb70a747ef6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward.FBX using Guid(00cb498003d76d1419bb70a747ef6a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cda2fb84768f7bfe0f7b4a5bce9d3d9') in 0.004699 seconds 
+  Import took 0.007197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Backward.FBX
+  artifactKey: Guid(925f58245af13ab4ca49dc43d12de4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Backward.FBX using Guid(925f58245af13ab4ca49dc43d12de4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca234722f31319f7aca98d7891d4b09') in 0.004643 seconds 
+  Import took 0.006738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward.FBX
+  artifactKey: Guid(0000872662c8fb241bf2ab6cc00dd461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward.FBX using Guid(0000872662c8fb241bf2ab6cc00dd461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35621d787b61696227ab4a732e1196d0') in 0.004827 seconds 
+  Import took 0.006923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Backward-Left.FBX
+  artifactKey: Guid(f236bd11eedda7b4a94f6e8159190ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Backward-Left.FBX using Guid(f236bd11eedda7b4a94f6e8159190ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e1a2b40715a6b5387d55e46a64162a') in 0.004851 seconds 
+  Import took 0.007383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward-Attack1.FBX
+  artifactKey: Guid(66e44a6687ed66247a1f3103ccaa11be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward-Attack1.FBX using Guid(66e44a6687ed66247a1f3103ccaa11be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e63003d61c1d233e2c6248680ebfeb') in 0.004730 seconds 
+  Import took 0.006881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Right.FBX
+  artifactKey: Guid(8b1ee08a5ff6fa74383ab7b9a8e8641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/2Hand-Spear/RPG-Character@2Hand-Spear-Run-Right.FBX using Guid(8b1ee08a5ff6fa74383ab7b9a8e8641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f303903e2e1c47487678b9f508f0bce') in 0.005095 seconds 
+  Import took 0.007197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.979358 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/Armed/RPG-Character@Armed-Run-Forward.FBX
+  artifactKey: Guid(347deb13f172b5b418bf8b5c60941b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/Armed/RPG-Character@Armed-Run-Forward.FBX using Guid(347deb13f172b5b418bf8b5c60941b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa290e4b8619c04c820c045e76338b8') in 0.004975 seconds 
+  Import took 0.007536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.339833 seconds.
+  path: Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/Armed/Armed-Run-Forward.anim
+  artifactKey: Guid(daacbce92a1822e4785ad12df5c39899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/RPG Character Animation Pack/Animations/Armed/Armed-Run-Forward.anim using Guid(daacbce92a1822e4785ad12df5c39899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53c080278684a402dd4625bba8f7810') in 0.012469 seconds 
+  Import took 0.014764 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
