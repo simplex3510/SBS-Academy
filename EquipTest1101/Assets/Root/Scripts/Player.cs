@@ -13,6 +13,16 @@ public class Player : MonoBehaviour
 
     public WeaponData m_dragData;
 
+    public void PlayAniSwing01()
+    {
+        Debug.Log("PlayAniSwing01");
+    }
+
+    public void TakeDamage(float _val)
+    {
+        Debug.Log("Take Damage" + _val);
+    }
+
     public bool Equip_L_currData()
     {
         if(m_dragData == null )
